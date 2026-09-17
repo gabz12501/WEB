@@ -15,7 +15,7 @@
 
 	<div class="contenu">
 		<nav>
-			<a href="index.html">Accueil</a>
+			<a href="accueil.html">Accueil</a>
 			<a href="bases.html" class="clic">Les bases du langage HTML</a>
 			<a href="tableau.html">Les tableaux</a>
 			<a href="styles_exercices.html">Les styles CSS : exercices</a>
@@ -26,7 +26,7 @@
 		</nav>
 			
 		<article>
-			<h1 id="1">Les bases du language HTML</h1><br>
+			<h1 id="1">Les bases du language HTML</h1>
             <a href="#2">Introduction</a><br>
             <a href="#3">Les balises titres</a><br>
             <a href="#4">Les paragraphes</a><br>
@@ -34,24 +34,22 @@
             <a href="#6">Formatage du texte</a><br>
             <a href="#7">Les styles</a><br>
             <h2 id="2">Introduction</h2>
-            <p>HTML est un langage pour décrire des pages Web :
+            <p>HTML est un langage pour décrire des pages Web :</p>
                 <ul>
                     <li>HTML signifie Hyper Text Markup Language </li>
                     <li>HTML n'est pas un langage de programmation, il est un langage de balisage</li>
                     <li>Un langage de balisage est un ensemble de balises</li>
                     <li>Le langage HTML utilise des balises pour décrire des pages Web</li>
                 </ul>
-                Le but d'un navigateur web (comme Edge ou Firefox) est de lire les documents HTML et de les afficher sous forme de pages Web. Le navigateur n'affiche pas les balises HTML, mais utilise les balises pour interpréter le contenu de la page.
+            <p>Le but d'un navigateur web (comme Edge ou Firefox) est de lire les documents HTML et de les afficher sous forme de pages Web. Le navigateur n'affiche pas les balises HTML, mais utilise les balises pour interpréter le contenu de la page.
             </p>
-            <p>
-                Exemples :
+            <p>Exemples :</p>
                 <ul>
                     <li>Le texte entre &lthtml&gt et &lt/ html&gt décrit la page web</li>
                     <li>Le texte entre &ltbody&gt et &lt/ body&gt est le contenu de la page visible</li>
                     <li>Le texte entre &lth1&gt et &lt/ h1&gt est affiché comme un titre de niveau 1</li>
                     <li>Le texte entre &ltp&gt et &lt/ p&gt est affiché comme un paragraphe</li>
                 </ul>
-            </p>
             <a href="#1">retour</a>
             <hr>
             <h2 id="3">Les Balises titres</h2>
@@ -73,8 +71,7 @@
             <a href="#1">retour</a>
             <hr>
             <h2 id="5">Les listes</h2>
-            <p>
-                Voici une liste numérotée :
+            <p>Voici une liste numérotée :</p>
                 <ol>
                     <li>OL</li>
                     <li>LOSC</li>
@@ -82,7 +79,7 @@
                     <li>PSG</li>
                     <li>ASSE</li>
                 </ol>
-                Voici une liste non numérotée :
+                <p>Voici une liste non numérotée :</p>
                 <ul>
                     <li>ASSE</li>
                     <li>PSG</li>
@@ -90,29 +87,44 @@
                     <li>OL</li>
                     <li>LOSC</li>
                 </ul>
-            </p>
             <a href="#1">retour</a>
             <hr>
             <h2 id="6">Formatage du texte</h2>
             <p>
-                Quelles balises permettent de mettre le texte comme indiqué ? 
+                Quelles balises permettent de mettre le texte comme indiqué ?</p> 
                 <strong>Ce texte est gras.</strong><br>
                 <i>Ce texte est italique.</i><br>
                 <u>Ce texte est souligné.</u><br>
                 <s>Ce texte est barré.</s><br>
                 <small>Ce texte est petit.</small><br>
-                La balise &ltpre&gt définit du texte préformaté.
+                <p>La balise &ltpre&gt définit du texte préformaté.
                     Le texte dans un élément "pre" est affiché dans une police à largeur fixe (habituellement Courier), et il préserve à la fois les espaces et les sauts de ligne. Il est conseillé d'utiliser l'élément "pre" pour afficher des lignes de code informatique.
-                    <br>
-                    Exemple :
+                </p>  
+                    <p>Exemple :</p>
                     <pre>
         for(int i=0;i< 20 ;i++)
         {
             cout << i << " ";
         }
                     </pre>
-            </p>  
+                <p>Balise abrévation &ltabbr&gt :</p>
+                <p><strong>Je suis étudiant à <abbr title="">Polytech Lyon.</abbr></strong></p>
+                <br>
+                <br>
+                <a href="#1">retour</a>
+                <hr>
+                <h2 id = "7">Les styles</h2>
+                <p>CSS a été introduit avec le HTML 4, dans le but de fournir une voie commune pour le style des éléments HTML.
+                    Les styles CSS peuvent être ajoutés à HTML de la manière suivante :</p>
+                <ul>
+                    <li>dans des fichiers séparés CSS (<strong>la meilleure !</strong>)</li>
+                    <li>dans la section head HTML à l'intérieur de la balise &ltstyle&gt</li>
+                    <li>dans l'attribut "style" des éléments HTML simple.</li>
+                </ul>
+                <a href="#1">retour</a>
 
+            
+                   
 		</article>
 		
 	</div>
